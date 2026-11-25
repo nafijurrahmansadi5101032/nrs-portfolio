@@ -126,7 +126,7 @@ export default function Navbar() {
                                     }`}
                             >
                                 <span>
-                                    {item.label} {item.badge ? `(${item.badge})` : ""}
+                                    {item.label}
                                 </span>
                                 <IconComponent className="w-4 h-4 opacity-70" />
                             </Link>
