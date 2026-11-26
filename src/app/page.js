@@ -471,7 +471,7 @@ export default function HomePage() {
             {latestPosts.map((post) => (
               <Link
                 key={post.id}
-                href={`blog/${slugify(post.title)}`}
+                href={`blogs/${slugify(post.title)}`}
                 className="group rounded-2xl bg-slate-900/90 border border-slate-800 hover:border-cyan-500/50 p-6 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1 shadow-lg shadow-black/30"
               >
                 <div className="space-y-3">
